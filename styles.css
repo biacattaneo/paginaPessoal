@@ -1,0 +1,78 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+}
+
+nav ul li{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+}
+
+a:hover{
+    background-color: lavender;
+}
+hr{
+    width: 100%;
+
+}
+
+#cabeçalho{
+    text-align: center;
+}
+
+#DadosPessoais{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+#DadosPessoais #header{
+    margin-left: 50px;
+
+}
+#DadosPessoais #picture{
+    margin-left: 385px;
+
+}
+
+#dadosProfissionais{
+    display: flex;
+    margin-left: 50px;
+    flex-direction: column;
+}
+
+#Escolaridade{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+
+}
+
+#picture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.disciplinas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+table.comBordas {
+    border: 1px solid black;
+}
+
+table.comBordas td{
+    border: 1px solid black;
+}
+

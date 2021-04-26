@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contato</title>
+        <link rel="stylesheet" type="text/css" href="styles/stylesContato.css"/>
+    </head>
+    <body>
+        <div id="formContato">
+            <h1>Formulário de Contato</h1>
+            <fieldset class="formContato">
+                <form id="form" action="#" method="POST">
+                    <p><label for="name">Nome </label><input type="text" class="campo" required id="name" placeholder="Nome completo"></p>
+                    <p><label for="fone">Telefone </label><input type="tel" class="campo" required id="telefone" placeholder="(19)12345-6789"></p>
+                    <p><label for="email">E-mail </label><input type="email" class="campo" required id="email" placeholder="Email"></p>
+                    <p><label for="motivoContato">Motivo de Contato </label><select class="campo" name="motivoContato" required id="motivoContato" placeholder="Motivo">
+                        <option value="PropostaAcademica">Proposta Academica</option>
+                        <option value="PropostaProfissional">Proposta Profissional</option>
+                        <option value="ParceriaProjeto">Parceria em projeto</option>
+                        <option value="DuvidasProjetosEntregues">Dúvidas sobre projetos entregues</option>
+                        <option value="DuvidasProjetosAndamento">Dúvidas sobre projetos em andamento</option>
+                        <option value="SolicitarOrcamento">Solicitar Orçamento</option>
+                        <option value="Manutenção">Manutenção</option>
+                    </select>
+                    <p><label for="comentariosGerais">Comentários </label><textarea id="comentariosGerais" class="campo" name="comentariosGerais" placeholder="Dê uma breve descrição do motivo de contato."></textarea></p>
+                    <div id="btn">
+                        <input type="submit" class="button" id="buttonEnviar" value="Enviar"/>
+                    </div>
+                </form>
+            </fieldset>
+        </div>
+    </body>
+</html>

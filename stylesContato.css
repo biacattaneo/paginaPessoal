@@ -1,0 +1,64 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+}
+
+h1{
+    
+    text-align: center;
+}
+
+.formContato{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    background-color: white;
+    border:  1px solid grey;
+    box-shadow: 10px 5px 5px black;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+}
+#formContato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#btn{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+}
+#form label{
+    padding-left: 10px;
+}
+#form input{
+    margin-top: 5px;
+}
+#form select{
+    margin-top: 5px;
+}
+#form textarea{
+    margin-top: 5px;
+
+}
+
+.campo{
+    display: flex;
+    font-size: 1.0rem;
+    margin: 1px 10px;
+    height: 30px;
+    width: 580px;
+}
